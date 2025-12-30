@@ -9,6 +9,7 @@ add_executable(sqlLight
     src/input.c
     src/vm.c
     src/parser.c
+    src/row.c
 )
 
 target_include_directories(sqlLight PRIVATE include)
